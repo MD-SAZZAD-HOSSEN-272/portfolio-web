@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* share style */
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+.btn {
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    background: #FD6E0A;
+    cursor: pointer;
+    font-family: "open sans";
+    font-weight: bold;
+    margin: 10px;
+}
+.font-style {
+    font-family: "open sans";
+    color: #474747;
+    margin: 10px;
+}
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "open sans";
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-discription {
+    color: #757575;
+    font-size: 18px;
+    font-family: "open sans";
+}
+/* header style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(developer-porttfolio.fig), url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-bottom: 130px;
+}
+/* nav style */
+.nav h1 {
+    font-weight: 600;
+    font-size: 45px;
+    font-family: "open sans";
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 197px 0 249px;
+}
+.nav h1 span {
+    color: #FD6E0A;
+   
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    
+}
+.nav ul li {
+    font-size: 40;
+    font-family: "open sans";
+}
+.nav ul li a {
+    color: #474747;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* bannar style */
+.bannar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 230px;
+}
+.bannar-contain {
+    max-width: 580px;
+    margin-top: 250px;
+}
+.bannar-contain-greeting {
+    font-size: 20px;
+    
+}
+.bannar-contain-title {
+    color: black;
+}
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about style */
+.about {
+    background: #dfab85;
+    padding: 130px 155px;
+    margin-top: 10px;
+    margin-bottom: 130px;
+}
+.about-content {
+    text-align: center;
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    text-align: center;
+}
+.item-title {
+    font-size: 20px;
+    font-family: "open sans";
+    color: #757575;
+}
+.item-discription {
+    font-size: 20px;
+    font-family: "open sans";
+    font-weight: bold;
+    color: #474747;
+}
+.skills {
+    margin-top: 80px;
+}
+.skill-content {
+    padding: 0 20px;
+    text-align: center;
+}
+.skill-list {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill {
+    padding: 30px 33px;
+    background: white;
+    box-shadow: 5px 2px 30px 0px #000000;
+    border-radius: 10px;
+}
+.skill-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    font-family: "open sans";
+}
+.resume {
+    margin-top: 25px; 
+}
+.resume-title {
+    text-align: center;
+    margin: 130px 0;
+}
+.resume-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    font-family: "open sans";
+}
+.resume-cloum {
+    display: flex;
+    gap: 70px;
+}
+.resume-education h4, .resume-experience h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+    font-family: "open sans";
+}
+.education-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+    font-family: "open sans";
+}
+.education-collage-name {
+    font-size: 20px;
+    color: #181818;
+    font-family: "open sans";
+    margin-bottom: 20px;
+}
+.resume-education hr, .resume-experience hr {
+    margin: 30px 0;
+}

@@ -52,12 +52,16 @@
 } 
 @media screen and (min-width: 576px) and (max-width: 990px) {
     .nav {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
+        padding: 20px 40px;
     }
     .bannar {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
+    }
+    .bannar-contain {
+        margin-top: 50px;
     }
     .bannar img {
         height: 100%;

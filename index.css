@@ -213,7 +213,7 @@ footer {
 .footer-form form [type = "text"], [type ="email"] {
     display: block;
     margin-top: 10px;
-    /* width: 460px; */
+    width: 460px;
     height: 60px;
     padding: 0 20px;
     font-size: 20px;
@@ -225,7 +225,7 @@ footer {
 .footer-form textarea {
     display: block;
     margin-top: 10px;
-    /* width: 460px; */
+    width: 460px;
     padding: 0 20px;
     font-size: 20px;
     font-family: "open sans";

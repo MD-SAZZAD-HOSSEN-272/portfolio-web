@@ -36,7 +36,10 @@
     .footer {
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: calc(100% - 40);
+    }
+    .footer-form form [type = "text"], [type ="email"], .footer-form textarea {
+        width: 100%;
     }
    
 } 

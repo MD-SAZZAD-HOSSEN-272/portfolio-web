@@ -6,8 +6,9 @@
         margin: 0 auto;
     }
     .nav {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
+        padding: 10px;
     }
     .nav ul {
         flex-direction: column;
@@ -15,10 +16,15 @@
     .bannar {
         flex-direction: column;
         align-items: center;
+        margin: auto;
+        text-align: center;
     }
-    .bannar img {
+    .bannar-contain {
+        margin-top: 50px;
+    }
+    /* .bannar img {
         height: 100%;
-    }
+    } */
     .about {
         padding: 20px;
     }
